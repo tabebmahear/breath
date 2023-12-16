@@ -53,6 +53,70 @@
     </style>
   </head>
   <body>
+    <form method="POST">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">
+            فرم ثبت نام
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><label>نام:</label></td>
+            <td><input type="text" id="txtFirstName"/></td>
+          </tr>
+          <tr>
+            <td><label>نام خانوادگی:</label></td>
+            <td><input type="text" id="txtlaststName"/></td>
+          </tr>
+          <tr>
+            <td><label>ایمیل:</label></td>
+            <td><input type="email" id="txtemail"/></td>
+          </tr>
+          <tr>
+            <td><label>رمزعبور:</label></td>
+            <td><input type="password" id="txtpasword"/></td>
+          </tr>
+          <tr>
+            <td><label>جنسیت:</label></td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="gender"/>مرد
+            <input type="radio" name="gender"/>زن
+            </td>
+          </tr>
+          <tr>
+            <td><label>مدرک تحصیلی:</label></td>
 
+          <td>
+  <select>
+    <option>دیپلم</option>
+      <option>دیپلم فوق </option>
+        <option>لیسانس </option>
+          <option>فوق لیسانس</option>
+            <option>دکترا</option>
+  </select>
+          </td>
+            </tr>
+            <tr>
+              <td>علاقه مندی ها </td>
+              <td>
+                <input type="checkbox"/>مطالعه
+                <input type="checkbox"/>سفر
+                <input type="checkbox"/>موسیقی
+                <input type="checkbox"/>سینما
+              </td>
+            </tr>
+             <tr>
+               <td></td>
+               <td>
+              <button id="btnsave">ثبت اطلاعات </button>
+               </td>
+             </tr>
+        </tbody>
+      </table>
+    </form>
   </body>
 </html>
